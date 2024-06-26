@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow: hidden;
+    min-height: 100vh;
+    background: linear-gradient(217deg, #2D85F3, #21C49F 70.71%);
+}
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.header-container{
+    padding: 30px 100px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: rgba(255,255,255, .17);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.05);
+}
+.header-container img{
+    width: 80px;
+}
+.logo{
+    font-size: 2em;
+    color: #F2F2F2;
+    pointer-events: none;
+}
+.menu-bar{
+    width: 40px;
+}
+.menu-bar button{
+    color: #F2F2F2;
+    width: 100%;
+    height: 100%;
+    font-size: 36px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 40px 0 5px;
+}
+
+.bg-primary{
+    background-color:#21C49F;
+}
+.bg-secondary{
+    background-color:#FB62AA;
+}
+.bg-tertiary{
+    background-color: #F2F2F2;
+}
+/*main section*/
+
+.section{
+    position: relative;
+    height: 800px;
+    background: transparent;
+    color: #fff;
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+.info-container{
+    position: absolute;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    background: rgba(255,255,255,0.18);
+    padding: 20px;
+    border-radius: 16px;
+    color: #fff;
+    transition: height .6s ease;
+}
+.search-box{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    /*background: #359381;*/
+    display: flex;
+    align-items: center;
+}
+.search-box input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    padding: 0 48px 0 48px;
+}
+.search-box input::placeholder{
+    color: #fff;
+    text-transform: capitalize;
+}
+.search-box button{
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    font-size: 26px;
+    color: #fff;
+    padding: 0 40px 0 5px;
+    cursor: pointer;
+}
+.search-box i{
+    position: absolute;
+    left: 15px;
+    font-size: 26px;
+}
+.player-box{
+    position:relative;
+    display: flex;
+    justify-content: flex-start;
+}
+.arena-box{
+    position: relative;
+}
+.arena-box img{
+    width: 200px;
+}
+.arena-box h3{
+    display: flex;
+    justify-content: center;
+}
+.profile-box{
+    position: relative;
+    padding: 30px 10px 10px 10px;
+}
+.profile-box i{
+    font-size: 26px;
+    padding-top: 20px;
+}
