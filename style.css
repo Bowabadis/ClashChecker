@@ -55,7 +55,7 @@ header{
     cursor: pointer;
     padding: 0 40px 0 5px;
 }
-
+/*
 .bg-primary{
     background-color:#21C49F;
 }
@@ -65,7 +65,7 @@ header{
 .bg-tertiary{
     background-color: #F2F2F2;
 }
-/*main section*/
+main section*/
 
 .section{
     position: relative;
